@@ -1,9 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useWorkoutsContext } from "../hooks/useWorkoutsContext";
+
+//components
 import WorkoutDetails from "../components/WorkoutDetails";
 import WorkoutForm from "../components/WorkoutForm";
 
 const Home = () => {
-	const [workouts, setWorkouts] = useState(null);
+	// const [workouts, setWorkouts] = useState(null); ///no longer needed with useWorkoutContext
+	const { workouts, dispatch } = useWorkoutsContext();
 
 	//fetch data
 	useEffect(() => {
@@ -15,7 +19,8 @@ const Home = () => {
 			//if response is ok, then...
 			if (response.ok) {
 				//update local states
-				setWorkouts(json);
+				// setWorkouts(json); ///no longer needed with useWorkoutContext
+				dispatch({ type: "SET_WORKOUTS", payload: json });
 			}
 		};
 
