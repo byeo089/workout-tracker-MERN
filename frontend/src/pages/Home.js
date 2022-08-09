@@ -16,16 +16,13 @@ const Home = () => {
 			const response = await fetch("/api/workouts");
 			const json = await response.json();
 
-			//if response is ok, then...
 			if (response.ok) {
-				//update local states
-				// setWorkouts(json); ///no longer needed with useWorkoutContext
 				dispatch({ type: "SET_WORKOUTS", payload: json });
 			}
 		};
 
 		fetchWorkouts();
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<div className="home">
