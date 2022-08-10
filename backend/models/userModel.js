@@ -18,7 +18,7 @@ const userSchema = new Schema({
 
 //create static "register" method
 userSchema.statics.register = async function (email, password) {
-	//validation - fields, emails, password
+	//server-side validation - fields, emails, password
 	if (!email || !password) {
 		throw Error("All fields must be filled");
 	}
