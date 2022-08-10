@@ -3,12 +3,13 @@ require("dotenv").config();
 //first, run "npm install expr"
 const express = require("express");
 const mongoose = require("mongoose");
-const workoutRoutes = require("./routes/workouts");
+const workoutRoutes = require("./routes/workoutsRoute");
+const userRoutes = require("./routes/userRoute");
 
 //express app
 const app = express();
 
-//Middleware
+//middleware
 app.use(express.json());
 
 app.use((req, res, next) => {
@@ -19,6 +20,7 @@ app.use((req, res, next) => {
 
 // routes
 app.use("/api/workouts", workoutRoutes);
+app.use("/api/user", userRoutes);
 
 // connect to db
 mongoose
