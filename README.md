@@ -1,3 +1,10 @@
+# Objective
+
+## MERN Workout Tracker
+
+![Login Page](C:\Users\13107\Desktop\Github\study-sessions\MernApp\mern-workout-app\Mern-App Login-Page.png)
+![Workout Page](\Users\13107\Desktop\Github\study-sessions\MernApp\mern-workout-app\Mern-App Workout-Page.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
