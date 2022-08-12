@@ -2,7 +2,7 @@
 
 This workout tracker was built using the MERN stack
 
-Front End - React.js | Back End - Express.js, Node.js | Database - MongoDB
+_Front End_ - React.js | _Back End_ - Express.js, Node.js | _Database_ - MongoDB
 
 ![Login Page](/Mern-App%20Login-Page.png)
 
