@@ -1,6 +1,8 @@
-# Objective
+# MERN Workout Tracker
 
-## MERN Workout Tracker
+This workout tracker was built using the MERN stack
+
+Front End - React.js | Back End - Express.js, Node.js | Database - MongoDB
 
 ![Login Page](/Mern-App%20Login-Page.png)
 
