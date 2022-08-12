@@ -2,9 +2,9 @@
 
 ## MERN Workout Tracker
 
-![Login Page](Mern-App Login-Page.png)
+![Login Page](/Mern-App%20Login-Page.png)
 
-![Workout Page](Mern-App Workout-Page.png)
+![Workout Page](/Mern-App%20Workout-Page.png)
 
 # Getting Started with Create React App
 
