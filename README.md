@@ -1,18 +1,18 @@
 # MERN Workout Tracker
 
-This workout tracker was built using the MERN stack
+This workout tracker was built using the MERN stack:
+- _Front End_ - React.js 
+- _Back End_ - Express.js, Node.js 
+- _Database_ - MongoDB
 
-_Front End_ - React.js | _Back End_ - Express.js, Node.js | _Database_ - MongoDB
-
-
-### Front End: 
+#### Front End: 
 - Components: Navbar, Workout Details, Workout Form, 
 - Pages: Login, Register, Home
 - React Custom Hooks
 - Error Response Handling
 - API Service Call to handle GET, POST, and DELETE requests
 
-### Back End:
+#### Back End:
 - Middleware Logic Layer for User Authentication
 - Controller Layer
 - User, Workout Model Layer
